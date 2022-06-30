@@ -51,6 +51,13 @@ public class LettersHandler : MonoBehaviour
       
       if (increaseDensity)
          ChangePadding();
+      else
+      {
+         _flexibleGridLayout.padding.left = 0;
+         _flexibleGridLayout.padding.right = 0;
+         _flexibleGridLayout.padding.top = 0;
+         _flexibleGridLayout.padding.bottom = 0;
+      }
 
       void ChangeLettersAmount()
       {
