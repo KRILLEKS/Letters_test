@@ -18,9 +18,10 @@ public class LettersHandler : MonoBehaviour
    [SerializeField] private TextMeshProUGUI heightText;
    [SerializeField] private TextMeshProUGUI widthText;
    [Space]
-   [SerializeField] private bool autoRandomizeOnChangeSize;
-   [SerializeField] private bool increaseDensity;
-   [SerializeField] private int densityModifier; // increase it to increase density
+   [SerializeField] private bool autoRandomizeOnChangeSize = true;
+   [SerializeField] private bool increaseDensity = true;
+   [SerializeField] private int densityModifier = 20; // increase it to increase density
+   [SerializeField] private float lettersMoveTime = 2;
 
    // private variables
    private FlexibleGridLayout _flexibleGridLayout;
@@ -31,6 +32,8 @@ public class LettersHandler : MonoBehaviour
    {
       _flexibleGridLayout = lettersContainer.GetComponent<FlexibleGridLayout>();
       _letter = lettersContainer.GetChild(0).gameObject;
+      
+      SetLetters();
    }
 
    // will invoke in input field "OnEndEdit"
@@ -57,7 +60,7 @@ public class LettersHandler : MonoBehaviour
          int.TryParse(heightString, out int height);
          int.TryParse(widthString, out int width);
 
-         if ((height > 1 && width > 1) == false)
+         if ((height > 0 && width > 0) == false)
             return;
 
          _flexibleGridLayout.ChangeSize(width, height);
@@ -128,7 +131,7 @@ public class LettersHandler : MonoBehaviour
          var itemIndex = Random.Range(0, positions.Count);
 
          _flexibleGridLayout.transform.GetChild(i)
-                            .DOMove(positions.ElementAt(itemIndex).Value, 2)
+                            .DOMove(positions.ElementAt(itemIndex).Value, lettersMoveTime)
                             .OnComplete(() =>
                             {
                                _isAble2Action = true;
