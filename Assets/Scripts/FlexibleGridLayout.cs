@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,9 +8,9 @@ using UnityEngine.UI;
 public class FlexibleGridLayout : LayoutGroup
 {
    [Space]
-   // protected variables
-   [SerializeField] private int columns;
-   [SerializeField] private int rows;
+   // public variables
+   [SerializeField] public int columns;
+   [SerializeField] public int rows;
    
    // private variables
    private Vector2 cellSize;
@@ -54,5 +55,11 @@ public class FlexibleGridLayout : LayoutGroup
 
    public override void SetLayoutVertical()
    {
+   }
+
+   public void ChangeSize(int width, int height)
+   {
+      columns = width;
+      rows = height;
    }
 }
