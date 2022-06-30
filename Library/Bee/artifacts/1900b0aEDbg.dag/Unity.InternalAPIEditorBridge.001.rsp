@@ -351,8 +351,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
--analyzer:"Assets/DOTween_1_2_632/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.2d.common@6.0.3/Editor/InternalBridge/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.2d.common@6.0.3/Editor/InternalBridge/InternalEditorBridge.cs"
 "Library/PackageCache/com.unity.2d.common@6.0.3/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs"

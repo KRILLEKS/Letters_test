@@ -343,8 +343,6 @@
 -r:"F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
--analyzer:"Assets/DOTween_1_2_632/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.2d.animation@7.0.5/IK/Runtime/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.2d.animation@7.0.5/IK/Runtime/CCDSolver2D.cs"
 "Library/PackageCache/com.unity.2d.animation@7.0.5/IK/Runtime/FabrikSolver2D.cs"

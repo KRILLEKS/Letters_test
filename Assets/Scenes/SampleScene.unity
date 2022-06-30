@@ -5392,6 +5392,7 @@ MonoBehaviour:
   autoRandomizeOnChangeSize: 1
   increaseDensity: 1
   densityModifier: 20
+  lettersMoveTime: 2
 --- !u!4 &1962141231
 Transform:
   m_ObjectHideFlags: 0

@@ -335,8 +335,6 @@
 -r:"F:/Unity/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"F:/Unity/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Burst.ref.dll"
--analyzer:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
--analyzer:"Assets/DOTween_1_2_632/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/AssemblyLoader.cs"
 "Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/BurstILPostProcessor.cs"
 "Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/FunctionPointerInvokeTransform.cs"

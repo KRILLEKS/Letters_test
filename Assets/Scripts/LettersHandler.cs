@@ -67,7 +67,7 @@ public class LettersHandler : MonoBehaviour
          int.TryParse(heightString, out int height);
          int.TryParse(widthString, out int width);
 
-         if ((height > 0 && width > 0) == false)
+         if ((height is > 0 and < 100 && width is > 0 and < 100) == false)
             return;
 
          _flexibleGridLayout.ChangeSize(width, height);
