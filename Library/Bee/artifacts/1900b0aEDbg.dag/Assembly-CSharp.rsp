@@ -117,6 +117,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
 -r:"D:/GitHub/Letters_test/Letters_test/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
 -r:"D:/GitHub/Letters_test/Letters_test/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
 -r:"D:/GitHub/Letters_test/Letters_test/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
@@ -373,8 +374,17 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
+-analyzer:"Assets/DOTween_1_2_632/DOTween/Editor/DOTweenEditor.dll"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModuleAudio.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModulePhysics.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModulePhysics2D.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModuleSprite.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModuleUI.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+"Assets/DOTween_1_2_632/DOTween/Modules/DOTweenModuleUtils.cs"
 "Assets/Scripts/FlexibleGridLayout.cs"
-"Assets/Scripts/InputFieldHandler.cs"
 "Assets/Scripts/LettersHandler.cs"
 -langversion:9.0
 

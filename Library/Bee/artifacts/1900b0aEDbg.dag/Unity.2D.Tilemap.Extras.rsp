@@ -117,6 +117,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
+-r:"Assets/DOTween_1_2_632/DOTween/Editor/DOTweenEditor.dll"
 -r:"D:/GitHub/Letters_test/Letters_test/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
 -r:"D:/GitHub/Letters_test/Letters_test/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
 -r:"D:/GitHub/Letters_test/Letters_test/Library/PackageCache/com.unity.burst@1.6.5/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
@@ -341,6 +343,8 @@
 -r:"F:/Unity/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/DOTween_1_2_632/DOTween/DOTween.dll"
+-analyzer:"Assets/DOTween_1_2_632/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/GridInformation/GridInformation.cs"
 "Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/AnimatedTile/AnimatedTile.cs"
 "Library/PackageCache/com.unity.2d.tilemap.extras@2.2.2/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs"
